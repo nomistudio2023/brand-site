@@ -6,7 +6,9 @@
     "blog": "ブログ",
     "services": "サービス",
     "resources": "リソース",
-    "about": "プロフィール"
+    "about": "プロフィール",
+    "toggleDark": "ダークモード切替",
+    "toggleLight": "ライトモード切替"
   },
   "footer": {
     "rights": "All rights reserved"
@@ -16,6 +18,8 @@
     "scrollTop": "トップへ戻る"
   },
   "home": {
+    "metaTitle": "Nomisas | 写真 × マーケティング × 自動化",
+    "metaDescription": "フォトグラファー、デジタルマーケター、自動化エキスパート。映像で語り、技術で価値を創る。",
     "heroEyebrow": "Photography × Marketing × Automation",
     "heroTitle": "映像で語り\n技術で価値を創る",
     "heroSubtitle": "フォトグラファー × デジタルマーケター × 自動化",
@@ -29,6 +33,9 @@
     "service3Desc": "業務効率化・API連携・ツール開発"
   },
   "photography": {
+    "metaTitle": "写真作品 | Nomisas",
+    "metaDescription": "商業撮影・風景・ポートレートのポートフォリオ。",
+    "noPhotos": "このカテゴリにはまだ作品がありません",
     "title": "写真作品",
     "all": "すべて",
     "landscape": "風景",
@@ -36,6 +43,17 @@
     "commercial": "商業"
   },
   "about": {
+    "metaTitle": "プロフィール | Nomisas",
+    "metaDescription": "フォトグラファー × デジタルマーケター × 自動化。経歴とスキルをご紹介します。",
+    "exp1Year": "2023",
+    "exp1Role": "フリーランスフォトグラファー",
+    "exp1Company": "個人事業",
+    "exp2Year": "2021",
+    "exp2Role": "デジタルマーケティング担当",
+    "exp2Company": "",
+    "exp3Year": "2018",
+    "exp3Role": "Web開発者",
+    "exp3Company": "",
     "eyebrow": "フォトグラファー × デジタルマーケター × 自動化",
     "bio": "映像で生活やビジネスのストーリーを記録し、デジタルマーケティングと自動化ツールでブランドに実質的な価値を提供しています。次のプロジェクトについてぜひご相談ください。",
     "skillsTitle": "スキル",
@@ -50,6 +68,8 @@
     "ctaText": "コラボしませんか？"
   },
   "contact": {
+    "metaTitle": "お問い合わせ | Nomisas",
+    "metaDescription": "撮影・マーケティング・自動化のご相談はこちら。お気軽にどうぞ。",
     "title": "お問い合わせ",
     "subtitle": "プロジェクトのご相談はこちらからどうぞ。",
     "namePlaceholder": "お名前",

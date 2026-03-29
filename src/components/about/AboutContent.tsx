@@ -5,18 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 
 const SKILL_KEYS = ['skill1', 'skill2', 'skill3', 'skill4', 'skill5'] as const;
-
-interface TimelineEntry {
-  year: string;
-  role: string;
-  company?: string;
-}
-
-const TIMELINE: TimelineEntry[] = [
-  { year: '2023', role: 'Freelance Photographer', company: 'Self-employed' },
-  { year: '2021', role: 'Digital Marketing Manager' },
-  { year: '2018', role: 'Web Developer' },
-];
+const TIMELINE_KEYS = ['1', '2', '3'] as const;
 
 export default function AboutContent() {
   const t = useTranslations('about');
@@ -84,17 +73,22 @@ export default function AboutContent() {
           <div>
             <h2 className="text-lg font-semibold text-[var(--t-text)] mb-3">{t('experienceTitle')}</h2>
             <div className="space-y-3">
-              {TIMELINE.map((entry, i) => (
-                <div key={i} className="flex items-start gap-3">
-                  <div className="mt-1.5 w-2.5 h-2.5 rounded-full bg-[var(--brand-accent)] flex-shrink-0" />
-                  <div>
-                    <p className="text-sm font-medium text-[var(--t-text)]">{entry.role}</p>
-                    <p className="text-xs text-[var(--t-muted)]">
-                      {entry.year}{entry.company ? ` — ${entry.company}` : ''}
-                    </p>
+              {TIMELINE_KEYS.map((n) => {
+                const role = t(`exp${n}Role`);
+                const year = t(`exp${n}Year`);
+                const company = t(`exp${n}Company`);
+                return (
+                  <div key={n} className="flex items-start gap-3">
+                    <div className="mt-1.5 w-2.5 h-2.5 rounded-full bg-[var(--brand-accent)] flex-shrink-0" />
+                    <div>
+                      <p className="text-sm font-medium text-[var(--t-text)]">{role}</p>
+                      <p className="text-xs text-[var(--t-muted)]">
+                        {year}{company ? ` — ${company}` : ''}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
 

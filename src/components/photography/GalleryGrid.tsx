@@ -40,23 +40,29 @@ export default function GalleryGrid({ photos }: GalleryGridProps) {
         ))}
       </div>
 
-      {/* Photo grid */}
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-        {filtered.map((photo) => (
-          <div key={photo.id} className="relative aspect-square overflow-hidden rounded-lg group">
-            <Image
-              src={photo.src}
-              alt={photo.alt}
-              fill
-              className="object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-            {/* Hover overlay */}
-            <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
-              <span className="text-white text-sm font-medium">{photo.title}</span>
+      {/* Photo grid or empty state */}
+      {filtered.length === 0 ? (
+        <div className="text-center py-20 text-[var(--t-muted)]">
+          <p className="text-lg">{t('noPhotos')}</p>
+        </div>
+      ) : (
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {filtered.map((photo) => (
+            <div key={photo.id} className="relative aspect-square overflow-hidden rounded-lg group">
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                fill
+                className="object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              {/* Hover overlay */}
+              <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
+                <span className="text-white text-sm font-medium">{photo.title}</span>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

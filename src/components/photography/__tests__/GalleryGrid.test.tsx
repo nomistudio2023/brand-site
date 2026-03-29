@@ -54,4 +54,13 @@ describe('GalleryGrid', () => {
     expect(screen.getByText('Studio Portrait')).toBeInTheDocument();
     expect(screen.getByText('Product Shoot')).toBeInTheDocument();
   });
+
+  it('shows empty state message when no photos match category', () => {
+    const landscapeOnly: Photo[] = [
+      { id: '1', src: '/photos/placeholder.jpg', alt: 'Landscape', category: 'landscape', title: 'Mountain View' },
+    ];
+    render(<GalleryGrid photos={landscapeOnly} />);
+    fireEvent.click(screen.getByRole('button', { name: 'portrait' }));
+    expect(screen.getByText('noPhotos')).toBeInTheDocument();
+  });
 });

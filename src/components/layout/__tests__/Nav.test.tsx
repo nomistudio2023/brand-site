@@ -46,4 +46,10 @@ describe('Nav', () => {
     const aboutLink = screen.getByRole('link', { name: '關於我' });
     expect(aboutLink).toHaveAttribute('href', '/about');
   });
+
+  it('renders the theme toggle button', () => {
+    render(<Nav />);
+    const buttons = screen.getAllByRole('button');
+    expect(buttons.length).toBeGreaterThan(0);
+  });
 });

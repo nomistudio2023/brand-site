@@ -6,7 +6,9 @@
     "blog": "文章",
     "services": "服務項目",
     "resources": "工具資源",
-    "about": "關於我"
+    "about": "關於我",
+    "toggleDark": "切換深色模式",
+    "toggleLight": "切換淺色模式"
   },
   "footer": {
     "rights": "版權所有"
@@ -16,6 +18,8 @@
     "scrollTop": "回頂部"
   },
   "home": {
+    "metaTitle": "Nomisas | 攝影 × 行銷 × 自動化",
+    "metaDescription": "攝影師、數位行銷與自動化專家。用影像說故事，用技術創造品牌價值。",
     "heroEyebrow": "Photography × Marketing × Automation",
     "heroTitle": "用影像說故事\n用技術創造價值",
     "heroSubtitle": "攝影師 × 數位行銷 × 自動化",
@@ -29,6 +33,9 @@
     "service3Desc": "工作流程優化、API 整合、工具建置"
   },
   "photography": {
+    "metaTitle": "攝影作品 | Nomisas",
+    "metaDescription": "商業攝影、風景、人像攝影作品集。",
+    "noPhotos": "此類別目前沒有作品",
     "title": "攝影作品",
     "all": "全部",
     "landscape": "風景",
@@ -36,6 +43,17 @@
     "commercial": "商業"
   },
   "about": {
+    "metaTitle": "關於我 | Nomisas",
+    "metaDescription": "攝影師 × 數位行銷 × 自動化。了解 Nomisas 的背景與專業技能。",
+    "exp1Year": "2023",
+    "exp1Role": "自由攝影師",
+    "exp1Company": "自營",
+    "exp2Year": "2021",
+    "exp2Role": "數位行銷專員",
+    "exp2Company": "",
+    "exp3Year": "2018",
+    "exp3Role": "Web 開發者",
+    "exp3Company": "",
     "eyebrow": "攝影師 × 數位行銷 × 自動化",
     "bio": "熱愛用影像記錄生活與商業故事，同時透過數位行銷與自動化工具為品牌創造實質價值。歡迎找我聊聊你的下一個專案。",
     "skillsTitle": "專業技能",
@@ -50,6 +68,8 @@
     "ctaText": "想合作？聯絡我"
   },
   "contact": {
+    "metaTitle": "聯絡我 | Nomisas",
+    "metaDescription": "有攝影、行銷或自動化的合作需求？填寫表單，我會盡快回覆。",
     "title": "聯絡我",
     "subtitle": "有專案想聊？填寫後我會盡快回覆",
     "namePlaceholder": "你的姓名",

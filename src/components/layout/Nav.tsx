@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
 import { Link, usePathname } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
+import ThemeToggle from './ThemeToggle';
 
 const NAV_LINKS = [
   { key: 'home' as const,        href: '/'            },
@@ -52,8 +53,9 @@ export function Nav() {
           ))}
         </ul>
 
-        {/* Locale switcher */}
+        {/* Locale switcher + theme toggle */}
         <div className="flex items-center gap-1">
+          <ThemeToggle />
           {routing.locales.map((loc) => (
             <Link
               key={loc}

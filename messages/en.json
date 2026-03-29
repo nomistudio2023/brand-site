@@ -6,7 +6,9 @@
     "blog": "Blog",
     "services": "Services",
     "resources": "Resources",
-    "about": "About"
+    "about": "About",
+    "toggleDark": "Toggle dark mode",
+    "toggleLight": "Toggle light mode"
   },
   "footer": {
     "rights": "All rights reserved"
@@ -16,6 +18,8 @@
     "scrollTop": "Back to top"
   },
   "home": {
+    "metaTitle": "Nomisas | Photography × Marketing × Automation",
+    "metaDescription": "Photographer, digital marketer, and automation specialist. Visual storytelling powered by technology.",
     "heroEyebrow": "Photography × Marketing × Automation",
     "heroTitle": "Visual storytelling\npowered by technology",
     "heroSubtitle": "Photographer × Digital Marketer × Automation",
@@ -29,6 +33,9 @@
     "service3Desc": "Workflow optimization, API integration, tooling"
   },
   "photography": {
+    "metaTitle": "Photography | Nomisas",
+    "metaDescription": "Commercial photography, landscapes, and portrait portfolio.",
+    "noPhotos": "No photos in this category yet",
     "title": "Photography",
     "all": "All",
     "landscape": "Landscape",
@@ -36,6 +43,17 @@
     "commercial": "Commercial"
   },
   "about": {
+    "metaTitle": "About | Nomisas",
+    "metaDescription": "Photographer × Digital Marketer × Automation. Learn about Nomisas's background and skills.",
+    "exp1Year": "2023",
+    "exp1Role": "Freelance Photographer",
+    "exp1Company": "Self-employed",
+    "exp2Year": "2021",
+    "exp2Role": "Digital Marketing Specialist",
+    "exp2Company": "",
+    "exp3Year": "2018",
+    "exp3Role": "Web Developer",
+    "exp3Company": "",
     "eyebrow": "Photographer × Digital Marketer × Automation",
     "bio": "I love capturing life and business stories through images, while creating real value for brands through digital marketing and automation tools. Let's talk about your next project.",
     "skillsTitle": "Skills",
@@ -50,6 +68,8 @@
     "ctaText": "Want to collaborate? Contact me"
   },
   "contact": {
+    "metaTitle": "Contact | Nomisas",
+    "metaDescription": "Photography, marketing, or automation project? Fill out the form and I'll get back to you.",
     "title": "Contact",
     "subtitle": "Have a project in mind? Fill out the form and I'll get back to you.",
     "namePlaceholder": "Your name",

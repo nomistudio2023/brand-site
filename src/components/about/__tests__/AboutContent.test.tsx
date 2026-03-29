@@ -49,4 +49,11 @@ describe('AboutContent', () => {
     render(<AboutContent />);
     expect(screen.getByText('bio')).toBeInTheDocument();
   });
+
+  it('renders timeline using translated keys', () => {
+    render(<AboutContent />);
+    expect(screen.getByText('exp1Role')).toBeInTheDocument();
+    expect(screen.getByText('exp2Role')).toBeInTheDocument();
+    expect(screen.getByText('exp3Role')).toBeInTheDocument();
+  });
 });
