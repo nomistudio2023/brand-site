@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "首頁",
+    "photography": "攝影作品",
+    "work": "專案案例",
+    "blog": "文章",
+    "services": "服務項目",
+    "resources": "工具資源",
+    "about": "關於我"
+  },
+  "footer": {
+    "rights": "版權所有"
+  },
+  "floating": {
+    "line": "LINE 加好友",
+    "scrollTop": "回頂部"
+  },
+  "home": {
+    "heroEyebrow": "Photography × Marketing × Automation",
+    "heroTitle": "用影像說故事\n用技術創造價值",
+    "heroSubtitle": "攝影師 × 數位行銷 × 自動化",
+    "heroCta": "查看作品",
+    "servicesTitle": "我能為你做什麼",
+    "service1Title": "攝影",
+    "service1Desc": "商業攝影、活動紀錄、人像寫真",
+    "service2Title": "數位行銷",
+    "service2Desc": "品牌策略、社群經營、內容規劃",
+    "service3Title": "自動化",
+    "service3Desc": "工作流程優化、API 整合、工具建置"
+  },
+  "photography": {
+    "title": "攝影作品",
+    "all": "全部",
+    "landscape": "風景",
+    "portrait": "人像",
+    "commercial": "商業"
+  },
+  "about": {
+    "eyebrow": "攝影師 × 數位行銷 × 自動化",
+    "bio": "熱愛用影像記錄生活與商業故事，同時透過數位行銷與自動化工具為品牌創造實質價值。歡迎找我聊聊你的下一個專案。",
+    "skillsTitle": "專業技能",
+    "skill1": "攝影",
+    "skill2": "品牌識別",
+    "skill3": "數位行銷",
+    "skill4": "自動化",
+    "skill5": "Web Dev",
+    "experienceTitle": "經歷",
+    "lineLabel": "LINE 聯繫",
+    "emailLabel": "Email 聯繫",
+    "ctaText": "想合作？聯絡我"
+  },
+  "contact": {
+    "title": "聯絡我",
+    "subtitle": "有專案想聊？填寫後我會盡快回覆",
+    "namePlaceholder": "你的姓名",
+    "emailPlaceholder": "Email",
+    "serviceLabel": "服務類型",
+    "servicePhotography": "攝影",
+    "serviceMarketing": "數位行銷",
+    "serviceAutomation": "自動化",
+    "serviceOther": "其他",
+    "messageLabel": "專案描述",
+    "messagePlaceholder": "請簡單描述你的需求...",
+    "budgetLabel": "預算範圍（選填）",
+    "budgetUnknown": "不確定",
+    "budgetUnder10k": "NT$10,000 以下",
+    "budget10k30k": "NT$10,000–30,000",
+    "budgetOver30k": "NT$30,000 以上",
+    "submitButton": "送出",
+    "submitting": "送出中...",
+    "errorMessage": "送出失敗，請稍後再試或直接用 LINE 聯繫"
+  },
+  "thankyou": {
+    "title": "感謝您的填寫！",
+    "subtitle": "我將在 1–2 個工作日內回覆您",
+    "lineButton": "加入 LINE 官方帳號",
+    "emailButton": "Email 聯繫",
+    "backHome": "回首頁"
+  }
+}

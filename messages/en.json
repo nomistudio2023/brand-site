@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Home",
+    "photography": "Photography",
+    "work": "Work",
+    "blog": "Blog",
+    "services": "Services",
+    "resources": "Resources",
+    "about": "About"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "floating": {
+    "line": "Add on LINE",
+    "scrollTop": "Back to top"
+  },
+  "home": {
+    "heroEyebrow": "Photography × Marketing × Automation",
+    "heroTitle": "Visual storytelling\npowered by technology",
+    "heroSubtitle": "Photographer × Digital Marketer × Automation",
+    "heroCta": "View Work",
+    "servicesTitle": "What I can do for you",
+    "service1Title": "Photography",
+    "service1Desc": "Commercial photography, events, portraits",
+    "service2Title": "Digital Marketing",
+    "service2Desc": "Brand strategy, social media, content planning",
+    "service3Title": "Automation",
+    "service3Desc": "Workflow optimization, API integration, tooling"
+  },
+  "photography": {
+    "title": "Photography",
+    "all": "All",
+    "landscape": "Landscape",
+    "portrait": "Portrait",
+    "commercial": "Commercial"
+  },
+  "about": {
+    "eyebrow": "Photographer × Digital Marketer × Automation",
+    "bio": "I love capturing life and business stories through images, while creating real value for brands through digital marketing and automation tools. Let's talk about your next project.",
+    "skillsTitle": "Skills",
+    "skill1": "Photography",
+    "skill2": "Brand Identity",
+    "skill3": "Digital Marketing",
+    "skill4": "Automation",
+    "skill5": "Web Dev",
+    "experienceTitle": "Experience",
+    "lineLabel": "Contact via LINE",
+    "emailLabel": "Contact via Email",
+    "ctaText": "Want to collaborate? Contact me"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind? Fill out the form and I'll get back to you.",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Email",
+    "serviceLabel": "Service type",
+    "servicePhotography": "Photography",
+    "serviceMarketing": "Digital Marketing",
+    "serviceAutomation": "Automation",
+    "serviceOther": "Other",
+    "messageLabel": "Project description",
+    "messagePlaceholder": "Briefly describe your needs...",
+    "budgetLabel": "Budget range (optional)",
+    "budgetUnknown": "Not sure",
+    "budgetUnder10k": "Under NT$10,000",
+    "budget10k30k": "NT$10,000–30,000",
+    "budgetOver30k": "Over NT$30,000",
+    "submitButton": "Send",
+    "submitting": "Sending...",
+    "errorMessage": "Failed to send. Please try again or contact via LINE."
+  },
+  "thankyou": {
+    "title": "Thank you!",
+    "subtitle": "I'll get back to you within 1–2 business days.",
+    "lineButton": "Add LINE Official Account",
+    "emailButton": "Contact via Email",
+    "backHome": "Back to home"
+  }
+}

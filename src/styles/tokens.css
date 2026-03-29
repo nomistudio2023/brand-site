@@ -1,0 +1,34 @@
+/* ===========================================
+   Design Tokens — edit here to retheme site
+   =========================================== */
+
+:root {
+  /* Brand — change these 2 lines to switch the entire color palette */
+  --brand-primary: #1a1a2e;
+  --brand-accent:  #e94560;
+
+  /* Semantic surface colors (--t- prefix avoids collision with @theme inline) */
+  --t-bg:        #ffffff;
+  --t-surface:   #f9fafb;
+  --t-border:    #e5e7eb;
+  --t-text:      #111827;
+  --t-muted:     #6b7280;
+
+  /* Typography */
+  --t-font-display: 'Noto Sans TC', system-ui, sans-serif;
+  --t-font-body:    'Inter', system-ui, sans-serif;
+  --t-font-mono:    ui-monospace, 'Geist Mono', monospace;
+
+  /* Spacing & shape */
+  --t-radius-card:   0.75rem;
+  --t-radius-button: 0.5rem;
+}
+
+/* Dark theme — toggle with data-theme="dark" on <html> */
+[data-theme="dark"] {
+  --t-bg:      #0a0a0a;
+  --t-surface: #111827;
+  --t-border:  #1f2937;
+  --t-text:    #f9fafb;
+  --t-muted:   #9ca3af;
+}

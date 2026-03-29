@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "photography": "写真作品",
+    "work": "制作実績",
+    "blog": "ブログ",
+    "services": "サービス",
+    "resources": "リソース",
+    "about": "プロフィール"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "floating": {
+    "line": "LINEで友達追加",
+    "scrollTop": "トップへ戻る"
+  },
+  "home": {
+    "heroEyebrow": "Photography × Marketing × Automation",
+    "heroTitle": "映像で語り\n技術で価値を創る",
+    "heroSubtitle": "フォトグラファー × デジタルマーケター × 自動化",
+    "heroCta": "作品を見る",
+    "servicesTitle": "できること",
+    "service1Title": "写真撮影",
+    "service1Desc": "商業撮影・イベント記録・ポートレート",
+    "service2Title": "デジタルマーケティング",
+    "service2Desc": "ブランド戦略・SNS運用・コンテンツ企画",
+    "service3Title": "自動化",
+    "service3Desc": "業務効率化・API連携・ツール開発"
+  },
+  "photography": {
+    "title": "写真作品",
+    "all": "すべて",
+    "landscape": "風景",
+    "portrait": "ポートレート",
+    "commercial": "商業"
+  },
+  "about": {
+    "eyebrow": "フォトグラファー × デジタルマーケター × 自動化",
+    "bio": "映像で生活やビジネスのストーリーを記録し、デジタルマーケティングと自動化ツールでブランドに実質的な価値を提供しています。次のプロジェクトについてぜひご相談ください。",
+    "skillsTitle": "スキル",
+    "skill1": "写真撮影",
+    "skill2": "ブランドアイデンティティ",
+    "skill3": "デジタルマーケティング",
+    "skill4": "自動化",
+    "skill5": "Web開発",
+    "experienceTitle": "経歴",
+    "lineLabel": "LINEで連絡",
+    "emailLabel": "Emailで連絡",
+    "ctaText": "コラボしませんか？"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "プロジェクトのご相談はこちらからどうぞ。",
+    "namePlaceholder": "お名前",
+    "emailPlaceholder": "メールアドレス",
+    "serviceLabel": "サービス種別",
+    "servicePhotography": "写真撮影",
+    "serviceMarketing": "デジタルマーケティング",
+    "serviceAutomation": "自動化",
+    "serviceOther": "その他",
+    "messageLabel": "プロジェクト概要",
+    "messagePlaceholder": "ご要望を簡単にご記入ください...",
+    "budgetLabel": "予算（任意）",
+    "budgetUnknown": "未定",
+    "budgetUnder10k": "NT$10,000未満",
+    "budget10k30k": "NT$10,000–30,000",
+    "budgetOver30k": "NT$30,000以上",
+    "submitButton": "送信",
+    "submitting": "送信中...",
+    "errorMessage": "送信に失敗しました。後でもう一度お試しいただくか、LINEでご連絡ください。"
+  },
+  "thankyou": {
+    "title": "ありがとうございます！",
+    "subtitle": "1〜2営業日以内にご返信いたします。",
+    "lineButton": "LINE公式アカウントを追加",
+    "emailButton": "Emailで連絡",
+    "backHome": "ホームへ戻る"
+  }
+}

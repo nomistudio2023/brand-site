@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+@plugin "@tailwindcss/typography";
+
+/* Map CSS token variables → Tailwind utility classes */
+/* Usage: bg-brand, text-accent, bg-surface, text-muted, etc. */
+@theme inline {
+  --color-brand:   var(--brand-primary);
+  --color-accent:  var(--brand-accent);
+  --color-bg:      var(--t-bg);
+  --color-surface: var(--t-surface);
+  --color-border:  var(--t-border);
+  --color-text:    var(--t-text);
+  --color-muted:   var(--t-muted);
+
+  --font-display: var(--t-font-display);
+  --font-body:    var(--t-font-body);
+  --font-mono:    var(--t-font-mono);
+
+  --radius-card:   var(--t-radius-card);
+  --radius-button: var(--t-radius-button);
+}
+
+body {
+  background-color: var(--t-bg);
+  color: var(--t-text);
+  font-family: var(--t-font-body);
+}
