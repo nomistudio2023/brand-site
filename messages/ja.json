@@ -96,5 +96,48 @@
     "lineButton": "LINE公式アカウントを追加",
     "emailButton": "Emailで連絡",
     "backHome": "ホームへ戻る"
+  },
+  "services": {
+    "metaTitle": "サービス | Nomisas",
+    "metaDescription": "写真撮影、WordPressサイト制作、デジタルマーケティング自動化サービス。",
+    "title": "サービス",
+    "subtitle": "高品質な写真、Web開発、デジタルマーケティングを提供",
+    "photography": "写真撮影",
+    "photographyDesc": "商業写真、イベント記録、ポートレート。ブランド価値を高める写真を提供します。",
+    "photographyPrice": "NT$3,000〜",
+    "photoFeature1": "商業製品撮影",
+    "photoFeature2": "ポートレート・写真",
+    "photoFeature3": "イベント記録",
+    "wordpress": "WordPressサイト",
+    "wordpressDesc": "プロフェッショナルなブランドサイトをゼロから構築。テーマカスタマイズ、SEO最適化含む。",
+    "wordpressPrice": "NT$15,000〜",
+    "wpFeature1": "カスタムテーマデザイン",
+    "wpFeature2": "基本SEO最適化",
+    "wpFeature3": "速度とセキュリティ設定",
+    "other": "その他のサービス",
+    "otherDesc": "自動化ワークフロー、デジタルマーケティング戦略、ツール統合コンサルティング。",
+    "otherPrice": "お問い合わせ",
+    "otherFeature1": "n8n / Zapier自動化",
+    "otherFeature2": "SNSマーケティング企画",
+    "ctaText": "お問い合わせ"
+  },
+  "work": {
+    "metaTitle": "制作実績 | Nomisas",
+    "metaDescription": "写真撮影、Web開発、デジタルマーケティングの制作実績。",
+    "title": "制作実績",
+    "subtitle": "最近のプロジェクトと成果",
+    "photography": "写真",
+    "website": "ウェブサイト",
+    "marketing": "マーケティング"
+  },
+  "blog": {
+    "metaTitle": "ブログ | Nomisas",
+    "metaDescription": "写真、Web開発、デジタルマーケティング、自動化ツールに関する実践的な記事。",
+    "title": "ブログ",
+    "subtitle": "写真、テック、起業の実践経験をシェア",
+    "readMore": "続きを読む",
+    "backToBlog": "← ブログ一覧に戻る",
+    "tags": "タグ",
+    "noPosts": "記事はまだありません"
   }
 }

@@ -96,5 +96,48 @@
     "lineButton": "Add LINE Official Account",
     "emailButton": "Contact via Email",
     "backHome": "Back to home"
+  },
+  "services": {
+    "metaTitle": "Services | Nomisas",
+    "metaDescription": "Photography, WordPress website development, and digital marketing automation services.",
+    "title": "Services",
+    "subtitle": "High-quality photography, web development, and digital marketing",
+    "photography": "Photography",
+    "photographyDesc": "Commercial photography, events, and portrait sessions. Tailored packages to elevate your brand visually.",
+    "photographyPrice": "From NT$3,000",
+    "photoFeature1": "Commercial product photography",
+    "photoFeature2": "Portraits and headshots",
+    "photoFeature3": "Event coverage",
+    "wordpress": "WordPress Website",
+    "wordpressDesc": "Build a professional brand website from scratch. Includes theme customization, SEO, and speed optimization.",
+    "wordpressPrice": "From NT$15,000",
+    "wpFeature1": "Custom theme design",
+    "wpFeature2": "Basic SEO optimization",
+    "wpFeature3": "Speed and security setup",
+    "other": "Other Services",
+    "otherDesc": "Automation workflows, digital marketing strategy, and tool integration consulting.",
+    "otherPrice": "Inquiry-based",
+    "otherFeature1": "n8n / Zapier automation",
+    "otherFeature2": "Social media planning",
+    "ctaText": "Get a Quote"
+  },
+  "work": {
+    "metaTitle": "Work | Nomisas",
+    "metaDescription": "Photography, web development, and digital marketing case studies.",
+    "title": "Work",
+    "subtitle": "Recent projects and results",
+    "photography": "Photography",
+    "website": "Website",
+    "marketing": "Marketing"
+  },
+  "blog": {
+    "metaTitle": "Blog | Nomisas",
+    "metaDescription": "Practical articles on photography, web development, digital marketing, and automation.",
+    "title": "Blog",
+    "subtitle": "Sharing real-world experience in photography, tech, and entrepreneurship",
+    "readMore": "Read more",
+    "backToBlog": "← Back to blog",
+    "tags": "Tags",
+    "noPosts": "No posts yet"
   }
 }
