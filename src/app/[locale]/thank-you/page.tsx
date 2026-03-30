@@ -1,8 +1,12 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 
-export default async function ThankYouPage() {
-  const t = await getTranslations('thankyou');
+type Props = { params: Promise<{ locale: string }> };
+
+export default async function ThankYouPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'thankyou' });
   const lineId = process.env.NEXT_PUBLIC_LINE_ID;
   const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
 
