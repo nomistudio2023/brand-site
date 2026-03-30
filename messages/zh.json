@@ -96,5 +96,48 @@
     "lineButton": "加入 LINE 官方帳號",
     "emailButton": "Email 聯繫",
     "backHome": "回首頁"
+  },
+  "services": {
+    "metaTitle": "服務項目 | Nomisas",
+    "metaDescription": "攝影、WordPress 網站建置、數位行銷自動化服務。",
+    "title": "服務項目",
+    "subtitle": "提供高品質的攝影、網站開發與數位行銷服務",
+    "photography": "攝影服務",
+    "photographyDesc": "商業攝影、活動紀錄、人像寫真。量身打造的方案，為你的品牌創造視覺價值。",
+    "photographyPrice": "NT$3,000 起",
+    "photoFeature1": "商業產品攝影",
+    "photoFeature2": "人像及寫真",
+    "photoFeature3": "活動記錄攝影",
+    "wordpress": "WordPress 網站",
+    "wordpressDesc": "從零打造專業品牌網站。含主題客製、SEO 優化、速度優化。",
+    "wordpressPrice": "NT$15,000 起",
+    "wpFeature1": "客製化主題設計",
+    "wpFeature2": "SEO 基礎優化",
+    "wpFeature3": "速度與安全設定",
+    "other": "其他服務",
+    "otherDesc": "自動化工作流程、數位行銷策略、工具整合諮詢。",
+    "otherPrice": "洽詢報價",
+    "otherFeature1": "n8n / Zapier 自動化",
+    "otherFeature2": "社群行銷規劃",
+    "ctaText": "洽詢報價"
+  },
+  "work": {
+    "metaTitle": "專案案例 | Nomisas",
+    "metaDescription": "攝影、網站開發、數位行銷專案案例。",
+    "title": "專案案例",
+    "subtitle": "近期合作項目與成果",
+    "photography": "攝影",
+    "website": "網站",
+    "marketing": "行銷"
+  },
+  "blog": {
+    "metaTitle": "文章 | Nomisas",
+    "metaDescription": "攝影技巧、網站建置、數位行銷與自動化工具的實用文章。",
+    "title": "文章",
+    "subtitle": "分享攝影、技術與創業的實戰經驗",
+    "readMore": "閱讀全文",
+    "backToBlog": "← 返回文章列表",
+    "tags": "標籤",
+    "noPosts": "目前沒有文章"
   }
 }
