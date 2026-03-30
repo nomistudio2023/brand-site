@@ -1,6 +1,8 @@
+export type ServiceId = 'photography' | 'wordpress' | 'other';
+
 export interface Service {
-  id: string;
-  titleKey: string;
+  id: ServiceId;
+  titleKey: ServiceId;
   descKey: string;
   priceKey: string;
   featureKeys: string[];

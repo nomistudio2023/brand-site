@@ -2,13 +2,13 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { services } from '@/data/services';
+import { services, type ServiceId } from '@/data/services';
 
-const SERVICE_ICONS: Record<string, string> = {
+const SERVICE_ICONS = {
   photography: '📷',
   wordpress: '🌐',
   other: '⚙️',
-};
+} satisfies Record<ServiceId, string>;
 
 export default function ServicesContent() {
   const t = useTranslations('services');
