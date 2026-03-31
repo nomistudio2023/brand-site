@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nomisas.pages.dev'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://brand-site-bl3.pages.dev'),
   title: {
     template: '%s | Nomisas',
     default: 'Nomisas — Photography × Marketing × Automation',
