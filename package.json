@@ -4,14 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx @tinacms/cli build --skip-cloud-checks && npx next build",
+    "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
     "test": "vitest",
     "test:run": "vitest run"
   },
   "dependencies": {
-    "@tinacms/cli": "^2.2.1",
     "framer-motion": "^12.38.0",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.7.0",
@@ -21,8 +20,7 @@
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-markdown": "^10.1.0",
-    "remark-gfm": "^4.0.1",
-    "tinacms": "^3.7.1"
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
