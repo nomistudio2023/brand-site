@@ -3,14 +3,14 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { siteConfig, getLineUrl } from '@/lib/siteConfig';
 
 const SKILL_KEYS = ['skill1', 'skill2', 'skill3', 'skill4', 'skill5'] as const;
 const TIMELINE_KEYS = ['1', '2', '3'] as const;
 
 export default function AboutContent() {
   const t = useTranslations('about');
-  const lineId = 'nomisas';
-  const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+  const { line, email } = siteConfig;
 
   return (
     <section className="max-w-4xl mx-auto px-4 py-16">
@@ -25,9 +25,9 @@ export default function AboutContent() {
               className="object-cover"
             />
           </div>
-          {lineId && (
+          {line.id && (
             <a
-              href={`https://line.me/ti/p/~${lineId}`}
+              href={getLineUrl(line)}
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-[var(--brand-accent)] hover:underline"
@@ -35,7 +35,7 @@ export default function AboutContent() {
               {t('lineLabel')}
             </a>
           )}
-          {email && (
+          {email && email.length > 0 && (
             <a
               href={`mailto:${email}`}
               className="text-sm text-[var(--t-muted)] hover:text-[var(--t-text)]"

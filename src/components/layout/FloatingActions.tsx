@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import { siteConfig, getLineUrl } from '@/lib/siteConfig';
 
 export function FloatingActions() {
   const t = useTranslations('floating');
@@ -13,13 +14,11 @@ export function FloatingActions() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const lineId = 'nomisas';
-
   return (
     <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
       {/* LINE Add Friend */}
       <a
-        href={`https://line.me/ti/p/~${lineId}`}
+        href={getLineUrl(siteConfig.line)}
         target="_blank"
         rel="noopener noreferrer"
         aria-label={t('line')}
