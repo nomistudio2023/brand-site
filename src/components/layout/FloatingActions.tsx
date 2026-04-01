@@ -13,7 +13,7 @@ export function FloatingActions() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const lineId = process.env.NEXT_PUBLIC_LINE_ID ?? '';
+  const lineId = 'nomisas';
 
   return (
     <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">

@@ -9,7 +9,7 @@ const TIMELINE_KEYS = ['1', '2', '3'] as const;
 
 export default function AboutContent() {
   const t = useTranslations('about');
-  const lineId = process.env.NEXT_PUBLIC_LINE_ID;
+  const lineId = 'nomisas';
   const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
 
   return (
