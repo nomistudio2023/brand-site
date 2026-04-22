@@ -1,0 +1,34 @@
+backend:
+  name: github
+  # 這裡要改成您 Github 的 username/repo-name (例如 nocode-nomisas/brand-site)
+  repo: your-github-username/brand-site  
+  branch: main
+  auth_type: pkce  # 啟動 PKCE 原生授權機制
+  app_id: YOUR_GITHUB_OAUTH_APP_CLIENT_ID  # 您等一下建立的 Github OAuth App 得到的 Client ID
+
+media_folder: "public/photos"
+public_folder: "/photos"
+
+collections:
+  - name: "portfolio_settings"
+    label: "作品集管理 (Portfolio)"
+    files:
+      - file: "src/data/photos.json"
+        name: "photos_data"
+        label: "精選攝影作品列表"
+        fields:
+          - name: "photos"
+            label: "作品列表"
+            widget: "list"
+            fields:
+              - { label: "識別ID (隨機數字即可)", name: "id", widget: "string" }
+              - { label: "照片檔案", name: "src", widget: "image" }
+              - { label: "照片標題 (顯示用途)", name: "title", widget: "string" }
+              - { label: "替代說明文字 (SEO 用途)", name: "alt", widget: "string" }
+              - label: "作品類別"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "人像/棚拍 (Portrait)", value: "portrait" }
+                  - { label: "商業/活動紀錄 (Commercial)", value: "commercial" }
+                  - { label: "風景/街拍 (Landscape)", value: "landscape" }

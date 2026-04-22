@@ -1,0 +1,67 @@
+{
+  "photos": [
+    {
+      "id": "1",
+      "src": "/photos/placeholder.jpg",
+      "alt": "Landscape photo 1",
+      "category": "landscape",
+      "title": "Mountain View"
+    },
+    {
+      "id": "2",
+      "src": "/photos/placeholder.jpg",
+      "alt": "Landscape photo 2",
+      "category": "landscape",
+      "title": "Sunset Coast"
+    },
+    {
+      "id": "3",
+      "src": "/photos/placeholder.jpg",
+      "alt": "Landscape photo 3",
+      "category": "landscape",
+      "title": "Forest Path"
+    },
+    {
+      "id": "4",
+      "src": "/photos/placeholder.jpg",
+      "alt": "Portrait photo 1",
+      "category": "portrait",
+      "title": "Studio Portrait"
+    },
+    {
+      "id": "5",
+      "src": "/photos/placeholder.jpg",
+      "alt": "Portrait photo 2",
+      "category": "portrait",
+      "title": "Natural Light"
+    },
+    {
+      "id": "6",
+      "src": "/photos/placeholder.jpg",
+      "alt": "Portrait photo 3",
+      "category": "portrait",
+      "title": "Outdoor Session"
+    },
+    {
+      "id": "7",
+      "src": "/photos/placeholder.jpg",
+      "alt": "Commercial photo 1",
+      "category": "commercial",
+      "title": "Product Shoot"
+    },
+    {
+      "id": "8",
+      "src": "/photos/placeholder.jpg",
+      "alt": "Commercial photo 2",
+      "category": "commercial",
+      "title": "Brand Campaign"
+    },
+    {
+      "id": "9",
+      "src": "/photos/placeholder.jpg",
+      "alt": "Commercial photo 3",
+      "category": "commercial",
+      "title": "Event Coverage"
+    }
+  ]
+}
