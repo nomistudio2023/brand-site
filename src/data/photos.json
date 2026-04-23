@@ -2,66 +2,66 @@
   "photos": [
     {
       "id": "1",
-      "src": "/photos/placeholder.jpg",
-      "alt": "Landscape photo 1",
-      "category": "landscape",
-      "title": "Mountain View"
+      "src": "/photos/Body_AI_20230311173613_IMG_6225.JPG",
+      "title": "TEST01",
+      "alt": "TEST01",
+      "category": "commercial"
     },
     {
       "id": "2",
       "src": "/photos/placeholder.jpg",
+      "title": "Sunset Coast",
       "alt": "Landscape photo 2",
-      "category": "landscape",
-      "title": "Sunset Coast"
+      "category": "landscape"
     },
     {
       "id": "3",
       "src": "/photos/placeholder.jpg",
+      "title": "Forest Path",
       "alt": "Landscape photo 3",
-      "category": "landscape",
-      "title": "Forest Path"
+      "category": "landscape"
     },
     {
       "id": "4",
       "src": "/photos/placeholder.jpg",
+      "title": "Studio Portrait",
       "alt": "Portrait photo 1",
-      "category": "portrait",
-      "title": "Studio Portrait"
+      "category": "portrait"
     },
     {
       "id": "5",
       "src": "/photos/placeholder.jpg",
+      "title": "Natural Light",
       "alt": "Portrait photo 2",
-      "category": "portrait",
-      "title": "Natural Light"
+      "category": "portrait"
     },
     {
       "id": "6",
       "src": "/photos/placeholder.jpg",
+      "title": "Outdoor Session",
       "alt": "Portrait photo 3",
-      "category": "portrait",
-      "title": "Outdoor Session"
+      "category": "portrait"
     },
     {
       "id": "7",
       "src": "/photos/placeholder.jpg",
+      "title": "Product Shoot",
       "alt": "Commercial photo 1",
-      "category": "commercial",
-      "title": "Product Shoot"
+      "category": "commercial"
     },
     {
       "id": "8",
       "src": "/photos/placeholder.jpg",
+      "title": "Brand Campaign",
       "alt": "Commercial photo 2",
-      "category": "commercial",
-      "title": "Brand Campaign"
+      "category": "commercial"
     },
     {
       "id": "9",
       "src": "/photos/placeholder.jpg",
+      "title": "Event Coverage",
       "alt": "Commercial photo 3",
-      "category": "commercial",
-      "title": "Event Coverage"
+      "category": "commercial"
     }
   ]
 }
